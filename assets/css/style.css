@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap);
+main .content .contentOne,
+main .content .contentTwo {
+  display: flex;
+  background: url("/assets/img/Colored\ Shapes.svg") center center/cover
+    no-repeat fixed;
+}
+header.navbar-container,
+main {
+  width: 100%;
+  margin-inline: auto;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #fff;
+  background: url("/assets/img/Moon.svg") center center/cover no-repeat fixed;
+}
+body {
+  height: 100vh;
+  font-family: Quicksand, "Courier New", Courier, monospace, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h2 {
+  background: linear-gradient(92deg, #fadb61 0, #ff006a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header.navbar-container {
+  top: 0;
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  z-index: 1;
+  background: url("/assets/img/wave.svg") center/cover no-repeat;
+}
+.judul {
+  font-size: 3rem;
+}
+header.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+header.navbar-container .nav-list li,
+main aside .social-media li {
+  list-style-type: none;
+}
+header.navbar-container .nav-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #d6d6d6;
+  text-shadow: 3px 2px 1px #412b2b;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  transition: 0.2s ease-in-out;
+}
+header.navbar-container .nav-list li:hover a {
+  background-color: #425c77;
+  color: #fa8282;
+}
+main {
+  margin-top: 100px;
+  padding: 2rem 4rem;
+  flex: 1;
+  align-items: center;
+}
+main .content {
+  display: flex;
+  flex-direction: column;
+}
+main .content .contentOne {
+  flex: 1;
+  justify-content: space-between;
+  padding: 50px;
+  border: solid #427774;
+  box-shadow: 5px 5px 5px 5px #2d3e50;
+  border-radius: 22% 44% 56% 7%/11% 5% 21% 30%;
+}
+main .content .contentFour,
+main .content .contentThree,
+main .content .contentTwo {
+  margin-top: 50px;
+  padding: 50px;
+  border: solid #427774;
+  box-shadow: 5px 5px 5px 5px #2d3e50;
+}
+main .content .contentOne .content-description {
+  flex: 1 1;
+}
+main .content .contentOne .content-description .whatsapp img {
+  width: 250px;
+  height: 80px;
+  margin-top: 50px;
+}
+main .content .contentOne .content-description .whatsapp img:hover {
+  cursor: pointer;
+  transform: translateX(30px);
+  transition: 0.2s ease-in-out;
+}
+main .content .contentOne .content-description .title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+  padding-left: 15px;
+}
+main .content .contentOne .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  padding-left: 15px;
+}
+main .content .contentOne .content-image {
+  flex: 1;
+  display: flex;
+}
+main .content .contentOne .content-image img {
+  margin: auto;
+  min-width: 200px;
+  width: 500px;
+}
+main .content .contentTwo {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22% 11% 25% 7%/10% 16% 7% 30%;
+}
+main .content .contentFour .barista .tim,
+main .content .contentTwo h2 {
+  align-items: center;
+  justify-items: center;
+}
+main .content .contentFour,
+main .content .contentThree {
+  background: url("/assets/img/Colored\ Shapes.svg") center center/cover
+    no-repeat fixed;
+  border-radius: 17% 7% 14% 5%/15% 15% 19% 17%;
+}
+main .content .contentTwo .product_kami {
+  border: solid #427774;
+  border-radius: 17% 65% 14% 67%/15% 11% 19% 17%;
+  margin: 40px;
+  padding: 20px;
+}
+main .content .contentTwo .product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  justify-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+main .content .contentTwo .product .card_text-start {
+  padding: 20px;
+  margin: 20px;
+}
+main .content .contentTwo .product .card_text-start img {
+  border-radius: 50%;
+}
+main .content .contentTwo .product .card_text-start img:hover {
+  border-radius: 10%;
+  transition: 0.2s ease-in-out;
+}
+main .content .contentThree .baru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+main .content .contentThree .market {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  object-fit: contain;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  background-color: hsla(103, 41%, 35%, 0.301);
+  box-shadow: 0 4px 8px 0 rgba(197, 73, 73, 0.2);
+  margin: auto auto 20px;
+  text-align: center;
+}
+.price {
+  color: #fff;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #fff;
+  background-color: #3033069d;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+#hubungiSaya {
+  display: flex;
+  margin-top: 50px;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.owner {
+  margin-left: 30px;
+}
+
+main aside .barista {
+  display: flex;
+  align-items: start;
+  justify-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+main aside .barista img:hover {
+  filter: drop-shadow(3px 3px 3px #deb887);
+  padding: 10px;
+  border: 1px #a9a9a9;
+  transition: 0.2s ease-in-out;
+}
+main aside .barista .tim h3 {
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+}
+main aside .barista img {
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  margin: 20px;
+}
+main aside .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main aside .social-media a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.1s ease-in-out;
+}
+main aside .social-media a:hover {
+  color: #629bd8;
+}
+footer {
+  padding-left: 50px;
+  width: 100%;
+  background-color: #aacff656;
+}
+@media screen and (max-width: 910px) {
+  header.navbar-container .nav-list ul,
+  main .content .contentTwo .product_kami {
+    flex-wrap: wrap;
+  }
+  main {
+    padding: 1rem 3rem;
+  }
+  .judul {
+    font-size: 1.5rem;
+  }
+  main .content .contentOne {
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .content .contentOne .content-image img {
+    width: 350px;
+  }
+  main .content .contentOne .content-description .whatsapp img {
+    width: 200px;
+    height: 80px;
+  }
+  main .content .contentOne .content-description .title {
+    font-size: 3rem;
+  }
+  main .content .contentOne .content-description p {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  main .content .contentOne .content-image {
+    order: -1;
+  }
+  main .content .contentTwo > h2 {
+    font-size: 17px;
+  }
+  main .content .contentTwo .product {
+    padding-left: 10%;
+  }
+  main .content .contentThree .market {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  main .content .contentTwo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main aside .barista {
+    flex-wrap: wrap;
+  }
+}
